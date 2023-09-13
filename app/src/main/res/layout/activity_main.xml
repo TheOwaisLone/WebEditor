@@ -1,0 +1,116 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:padding="50dp"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btn_new_file"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="25dp"
+            android:text="@string/create_file"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_open_file"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="25dp"
+            android:text="@string/open_file"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_new_project"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="25dp"
+            android:text="@string/create_project"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_open_project"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="25dp"
+            android:text="@string/open_project"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="15sp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="25dp"
+            android:text="@string/settings"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_about"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="25dp"
+            android:text="@string/about"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="25dp"
+            android:text="@string/exit"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
