@@ -22,5 +22,11 @@
     <string name="save">Save</string>
     <string name="run">Run</string>
     <string name="my_code" translatable="false">My Code is This</string>
+    <string name="h1_tag"><![CDATA[<h1></h1>]]></string>
+    <string name="double_quotes">\"\"</string>
+    <string name="equal">=</string>
+    <string name="bold"><![CDATA[<b></b>]]></string>
+    <string name="uline"><![CDATA[<u></u>]]></string>
+    <string name="italic"><![CDATA[<i></i>]]></string>
 
 </resources>

@@ -33,7 +33,7 @@ public class EditorActivity extends AppCompatActivity {
         tab_text.setOnClickListener(_view -> edittext_code.getText().insert(edittext_code.getSelectionStart(), "     "));
 
         h1_text.setOnClickListener(_view -> {
-            edittext_code.getText().insert(edittext_code.getSelectionStart(), "<h1> </h1>");
+            edittext_code.getText().insert(edittext_code.getSelectionStart(), "<h1></h1>");
             edittext_code.setSelection(edittext_code.getSelectionStart() - 5);
         });
 
